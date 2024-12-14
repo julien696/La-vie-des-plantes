@@ -1,0 +1,29 @@
+2024-12-08T19:45:58+00:00 DEBUG POST: https://ads.tiktok.com/marketing_api/api/developer/app/create_auto_approve/
+
+{"business_platform":"PROD","smb_id":"tt4b_woocommerce_6755f776caec9httpla-vie-des-planteslocalwp-admin","smb_name":"PROD","redirect_url":"http:\/\/la-vie-des-plantes.local\/wp-admin\/"}
+ ajax: no
+2024-12-08T19:46:00+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+X-Tt-Logid: 202412081945590E2C2DD1C3EEB01005B3,202412081945590E2C2DD1C3EEB01005B3
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+x-tt-trace-host: 01154ddb418bb8b43027b7cf9eec2a8ac50a3a9de8327d244d794acb46f59c1f632eeb19c72e6c22b00e7bfe20eb94ffa7606c7c261a6b6d2989dab880e1ce36186256e424c74fae34bccf38d7b88e5c552ab3dde451c42a8c7970d6b45c9f64e212d52d979277f99cedff31d7f0c9751a
+x-tt-trace-id: 00-2412081945590E2C2DD1C3EEB01005B3-1591B8DE3961ECF0-00
+Server: TLB
+Content-Encoding: gzip
+Content-Length: 211
+X-Origin-Response-Time: 91,23.54.117.200
+X-Akamai-Request-ID: cfeae41b.28c52ca0
+Date: Sun, 08 Dec 2024 19:46:00 GMT
+X-Cache: TCP_MISS from a23-72-226-207.deploy.akamaitechnologies.com (AkamaiGHost/11.7.1-5d2a058efeda81c5505a169a6e16c38e) (-)
+Connection: close
+Vary: Accept-Encoding
+X-Cache-Remote: TCP_MISS from a23-54-117-200.deploy.akamaitechnologies.com (AkamaiGHost/11.7.1-5d2a058efeda81c5505a169a6e16c38e) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=161, origin; dur=91
+Server-Timing: inner; dur=86
+X-Parent-Response-Time: 246,23.72.226.207
+
+{"code":0,"msg":"ok","data":{"redirect_uri":"http:\/\/la-vie-des-plantes.local\/wp-admin\/","app_secret":"0a73e68972971061c0489864c470fa52efe91a47","external_data_key":"a7bca2d2-79c2-45b1-9540-43f0bec5b6a6","app_id":"7446129654689202194"}}
+
